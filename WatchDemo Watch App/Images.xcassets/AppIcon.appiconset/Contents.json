@@ -4,6 +4,7 @@
       "size" : "14.5x14.5",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "barna14.5.png",
       "role" : "notificationCenter",
       "subtype" : "38mm"
     },
@@ -11,12 +12,14 @@
       "size" : "18x18",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "barna18.png",
       "role" : "notificationCenter",
       "subtype" : "42mm"
     },
     {
       "size" : "29x29",
       "idiom" : "watch",
+      "filename" : "barna29.png",
       "role" : "companionSettings",
       "scale" : "2x"
     },
@@ -30,6 +33,7 @@
       "size" : "40x40",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "barna40.png",
       "role" : "appLauncher",
       "subtype" : "38mm"
     },
@@ -37,6 +41,7 @@
       "size" : "44x44",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "barna44.png",
       "role" : "appLauncher",
       "subtype" : "42mm"
     },
@@ -44,6 +49,7 @@
       "size" : "86x86",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "barna86.png",
       "role" : "quickLook",
       "subtype" : "38mm"
     },
@@ -51,6 +57,7 @@
       "size" : "98x98",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "barna98.png",
       "role" : "quickLook",
       "subtype" : "42mm"
     }
