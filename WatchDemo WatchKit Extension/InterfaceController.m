@@ -32,7 +32,8 @@
 }
 
 - (void)showImageWithName:(NSString *)imageName {
-    [self pushControllerWithName:@"ImageViewer" context:@{@"imageName" : imageName}];
+    [self presentControllerWithName:@"ImageViewer" context:@{ @"imageName" : imageName }];
+    
 }
 
 @end

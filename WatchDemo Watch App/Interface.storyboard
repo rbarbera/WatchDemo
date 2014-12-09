@@ -30,6 +30,7 @@
                     <connections>
                         <outlet property="interfaceImage" destination="Zzv-ks-MK1" id="t5S-Th-AVx"/>
                         <outlet property="interfaceLabel" destination="Lnu-qW-XyR" id="EeZ-ZN-Qus"/>
+                        <segue destination="xcd-w3-cAK" kind="relationship" relationship="nextPage" id="jzI-iI-i4H"/>
                     </connections>
                 </controller>
             </objects>
@@ -47,7 +48,32 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="502" y="347"/>
+            <point key="canvasLocation" x="463" y="241"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Ljd-4Q-k00">
+            <objects>
+                <controller id="xcd-w3-cAK">
+                    <items>
+                        <imageView alignment="center" image="invernalia" id="Ses-c2-AET"/>
+                    </items>
+                    <connections>
+                        <segue destination="gFO-Dk-KJs" kind="relationship" relationship="nextPage" id="9es-YD-0kf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="475" y="466"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Uia-cw-gHd">
+            <objects>
+                <controller id="gFO-Dk-KJs">
+                    <items>
+                        <imageView alignment="center" image="montjuic" id="2Em-sR-pkU"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="723" y="466"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
