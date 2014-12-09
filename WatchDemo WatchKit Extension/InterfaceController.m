@@ -23,6 +23,17 @@
     [self.interfaceLabel setText:@"Winter is coming"];
 }
 
+- (IBAction)goToInvernalia {
+    [self showImageWithName:@"invernalia"];
+}
+
+- (IBAction)goToMontjuic {
+    [self showImageWithName:@"montjuic"];
+}
+
+- (void)showImageWithName:(NSString *)imageName {
+    [self pushControllerWithName:@"ImageViewer" context:@{@"imageName" : imageName}];
+}
 
 @end
 

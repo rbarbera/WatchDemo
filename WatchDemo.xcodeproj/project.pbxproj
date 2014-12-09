@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51737E11A36DBC80002BB86 /* ImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = E51737E01A36DBC80002BB86 /* ImageViewer.m */; };
 		E57C1F2A1A35B0A2009A44AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C1F291A35B0A2009A44AC /* main.m */; };
 		E57C1F2D1A35B0A2009A44AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C1F2C1A35B0A2009A44AC /* AppDelegate.m */; };
 		E57C1F301A35B0A2009A44AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C1F2F1A35B0A2009A44AC /* ViewController.m */; };
@@ -64,6 +65,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E51737DF1A36DBC80002BB86 /* ImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewer.h; sourceTree = "<group>"; };
+		E51737E01A36DBC80002BB86 /* ImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewer.m; sourceTree = "<group>"; };
 		E57C1F241A35B0A2009A44AC /* WatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57C1F281A35B0A2009A44AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E57C1F291A35B0A2009A44AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -207,6 +210,8 @@
 				E57C1F601A35B108009A44AC /* GlanceController.m */,
 				E57C1F621A35B108009A44AC /* Images.xcassets */,
 				E57C1F561A35B108009A44AC /* Supporting Files */,
+				E51737DF1A36DBC80002BB86 /* ImageViewer.h */,
+				E51737E01A36DBC80002BB86 /* ImageViewer.m */,
 			);
 			path = "WatchDemo WatchKit Extension";
 			sourceTree = "<group>";
@@ -430,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E57C1F5E1A35B108009A44AC /* NotificationController.m in Sources */,
+				E51737E11A36DBC80002BB86 /* ImageViewer.m in Sources */,
 				E57C1F5B1A35B108009A44AC /* InterfaceController.m in Sources */,
 				E57C1F611A35B108009A44AC /* GlanceController.m in Sources */,
 			);

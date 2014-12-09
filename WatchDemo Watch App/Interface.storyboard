@@ -14,8 +14,16 @@
                         <label width="1" alignment="left" text="Label" textAlignment="center" id="Lnu-qW-XyR"/>
                         <group width="1" alignment="left" hasDetent="YES" id="4DC-ro-2G5">
                             <items>
-                                <imageView width="0.5" height="40" alignment="left" image="invernalia" contentMode="scaleAspectFill" id="8DW-Wi-XHI"/>
-                                <imageView width="0.5" height="40" alignment="left" image="montjuic" contentMode="scaleAspectFill" id="fHE-ff-a0V"/>
+                                <button width="0.5" height="40" alignment="left" backgroundImage="invernalia" id="YTR-7s-yy3">
+                                    <connections>
+                                        <action selector="goToInvernalia" destination="AgC-eL-Hgc" id="aq4-IF-AYC"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="40" alignment="left" backgroundImage="montjuic" id="AR8-Gn-NWi">
+                                    <connections>
+                                        <action selector="goToMontjuic" destination="AgC-eL-Hgc" id="0jg-xC-gqm"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
@@ -26,6 +34,20 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--ImageViewer-->
+        <scene sceneID="3cv-Qr-kyo">
+            <objects>
+                <controller identifier="ImageViewer" id="c8O-tx-HFL" customClass="ImageViewer">
+                    <items>
+                        <imageView alignment="center" id="Jan-4r-dJB"/>
+                    </items>
+                    <connections>
+                        <outlet property="interfaceImage" destination="Jan-4r-dJB" id="o3m-1e-uUw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="502" y="347"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
