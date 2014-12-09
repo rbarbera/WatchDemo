@@ -119,10 +119,12 @@
             <objects>
                 <controller id="gdX-wl-uQE" customClass="NotificationController">
                     <items>
-                        <map alignment="left" id="7BF-iK-Wpp"/>
+                        <map height="76" alignment="left" id="7BF-iK-Wpp"/>
+                        <label width="1" alignment="center" text="Label" textAlignment="center" id="MLD-34-iJ6"/>
                     </items>
                     <connections>
                         <outlet property="interfaceMap" destination="7BF-iK-Wpp" id="1IJ-1K-Fxv"/>
+                        <outlet property="messageLabel" destination="MLD-34-iJ6" id="7qV-X6-yvG"/>
                     </connections>
                 </controller>
             </objects>
