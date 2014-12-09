@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *messageTextField;
 
 @end
 
@@ -19,9 +20,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)doSendMessage:(id)sender {
+    NSUserDefaults *groupDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.demowatch.develapps.es"];
+    
+    NSDictionary *groupData = @{ @"message" : self.messageTextField.text };
+    [groupDefaults setObject:groupData forKey:@"glanceData"];
 }
 
 @end

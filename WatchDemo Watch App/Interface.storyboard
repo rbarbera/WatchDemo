@@ -81,9 +81,16 @@
                 <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
                     <items>
                         <group alignment="left" id="t8f-Gd-c4y"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                        <group alignment="left" id="uCw-4Q-Ouw">
+                            <items>
+                                <label width="1" alignment="left" text="Label" numberOfLines="0" id="oeG-KS-iwv"/>
+                            </items>
+                        </group>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="messageLabel" destination="oeG-KS-iwv" id="JFT-nr-8hQ"/>
+                    </connections>
                 </glanceController>
             </objects>
             <point key="canvasLocation" x="235" y="672"/>

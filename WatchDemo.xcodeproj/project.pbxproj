@@ -204,14 +204,14 @@
 				E57C1F7C1A35B847009A44AC /* WatchDemo WatchKit Extension.entitlements */,
 				E57C1F591A35B108009A44AC /* InterfaceController.h */,
 				E57C1F5A1A35B108009A44AC /* InterfaceController.m */,
+				E51737DF1A36DBC80002BB86 /* ImageViewer.h */,
+				E51737E01A36DBC80002BB86 /* ImageViewer.m */,
 				E57C1F5C1A35B108009A44AC /* NotificationController.h */,
 				E57C1F5D1A35B108009A44AC /* NotificationController.m */,
 				E57C1F5F1A35B108009A44AC /* GlanceController.h */,
 				E57C1F601A35B108009A44AC /* GlanceController.m */,
 				E57C1F621A35B108009A44AC /* Images.xcassets */,
 				E57C1F561A35B108009A44AC /* Supporting Files */,
-				E51737DF1A36DBC80002BB86 /* ImageViewer.h */,
-				E51737E01A36DBC80002BB86 /* ImageViewer.m */,
 			);
 			path = "WatchDemo WatchKit Extension";
 			sourceTree = "<group>";
