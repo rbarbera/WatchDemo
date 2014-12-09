@@ -10,6 +10,7 @@
 
 
 @interface NotificationController()
+@property (weak, nonatomic) IBOutlet WKInterfaceMap *interfaceMap;
 
 @end
 

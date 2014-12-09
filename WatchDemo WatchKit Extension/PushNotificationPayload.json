@@ -11,4 +11,11 @@
             "identifier": "hiButtonAction"
         }
     ],
+    
+    "locationData" : {
+        "latitude" : 41.372655,
+        "longitude" : 2.151885,
+        "size" : 500,
+        "name" : "Plaça de L'Univers"
+    },
 }

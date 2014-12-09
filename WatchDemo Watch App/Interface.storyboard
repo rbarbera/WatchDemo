@@ -112,14 +112,21 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="235" y="1001"/>
+            <point key="canvasLocation" x="235" y="965"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController">
+                    <items>
+                        <map alignment="left" id="7BF-iK-Wpp"/>
+                    </items>
+                    <connections>
+                        <outlet property="interfaceMap" destination="7BF-iK-Wpp" id="1IJ-1K-Fxv"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="553" y="1001"/>
+            <point key="canvasLocation" x="553" y="965"/>
         </scene>
     </scenes>
 </document>
