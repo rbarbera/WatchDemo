@@ -18,9 +18,16 @@
 
 @implementation InterfaceController
 
-- (void)willActivate {
+- (instancetype)initWithContext:(id)context {
+    self = [super initWithContext:context];
+    if (!self) {
+        return nil;
+    }
+
     [self.interfaceImage setImageNamed:@"invernalia"];
     [self.interfaceLabel setText:@"Winter is coming"];
+    
+    return self;
 }
 
 - (IBAction)goToInvernalia {
@@ -34,6 +41,13 @@
 - (void)showImageWithName:(NSString *)imageName {
     [self presentControllerWithName:@"ImageViewer" context:@{ @"imageName" : imageName }];
     
+}
+
+- (void)handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)remoteNotification {
+    if ([identifier isEqualToString:@"hiButtonAction"]) {
+        [self.interfaceImage setImageNamed:@"montjuic"];
+        [self.interfaceLabel setText:@"Hi! Barcelona"];
+    }
 }
 
 @end
