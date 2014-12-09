@@ -48,7 +48,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="463" y="241"/>
+            <point key="canvasLocation" x="466" y="86"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="Ljd-4Q-k00">
@@ -62,7 +62,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="475" y="466"/>
+            <point key="canvasLocation" x="466" y="347"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="Uia-cw-gHd">
@@ -73,7 +73,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="723" y="466"/>
+            <point key="canvasLocation" x="714" y="347"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
@@ -100,9 +100,12 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="XkS-y5-khE"/>
                     </items>
-                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <notificationCategory key="notificationCategory" identifier="hiNotification" id="JfB-70-Muf">
+                        <color key="sashColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </notificationCategory>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
                         <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
